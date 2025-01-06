@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Login form</title>
+  </head>
+  <body class="box-border m-0 p-0">
+    <div class="flex flex-row h-screen w-full">
+      <div class="w-1/2">
+        <div class="ml-20 mt-10 pl-5">
+          <h2 class="text-2xl font-bold text-blue-600">Digital</h2>
+        </div>
+        <div class="flex flex-col justify-center items-center h-5/6 gap-2">
+          <div class="w-3/4">
+            <h1 class="text-4xl text-blue-600 font-bold leading-normal">
+              Artificial Intelligence Driving Results For The Travel Industry
+            </h1>
+            <p class="text-sm text-gray-700 my-3">
+              Welcome back! Please login to your account
+            </p>
+          </div>
+          <div class="text-sm text-gray-700 w-3/4 h-2/5">
+            <p
+              class="before:content-['❖'] before:mr-2 text-base text-purple-600 font-semibold"
+            >
+              Email section
+            </p>
+            <div class="border border-gray-300 h-1/4 mt-2 p-2">
+              <label class="block ml-2">Email Address</label>
+              <input
+                class="border-none outline-none mt-1 text-blue-700 w-full ml-2 font-semibold"
+                type="email"
+              />
+            </div>
+            <div class="border border-gray-300 h-1/4 p-2">
+              <label class="block ml-2">Password</label>
+              <input
+                class="border-none outline-none mt-1 text-blue-700 w-full ml-2 font-semibold"
+                type="password"
+              />
+            </div>
+            <div class="flex justify-between items-center">
+              <div class="text-sm p-2 flex items-center gap-2">
+                <input type="checkbox" />
+                <p class="inline-block">Remember Me</p>
+              </div>
+              <div class="text-sm p-2">
+                <p class="cursor-pointer">Forgot Password?</p>
+              </div>
+            </div>
+          </div>
+          <div class="w-3/4 h-20">
+            <button
+              class="h-3/5 rounded w-1/6 bg-blue-600 border-none outline-none shadow-lg text-white mr-1"
+              type="button"
+            >
+              Login
+            </button>
+            <button
+              class="border border-blue-600 bg-white h-3/5 rounded w-1/6 text-blue-600"
+              type="button"
+            >
+              Sign up
+            </button>
+          </div>
+          <ul class="flex flex-row justify-around w-5/6">
+            <li class="text-gray-700">Or login with</li>
+            <li class="font-semibold text-blue-600">Facebook</li>
+            <li class="font-semibold text-blue-600">Linkedin</li>
+            <li class="font-semibold text-blue-600">Google</li>
+          </ul>
+        </div>
+      </div>
+      <div class="w-1/2 bg-gray-300">
+        <ul class="flex space-x-4 text-xl text-gray-600 mt-10 justify-evenly">
+                <li class="hover:border-b-2 hover:border-blue-500 cursor-pointer">Home</li>
+                <li class="hover:border-b-2 hover:border-blue-500 cursor-pointer">About us</li>
+                <li class="hover:border-b-2 hover:border-blue-500 cursor-pointer">Blog</li>
+                <li class="hover:border-b-2 hover:border-blue-500 cursor-pointer">Pricing</li>
+              
+        </ul>
+        <img class="mt-10" src="./images/image.png" />
+      </div>
+    </div>
+  </body>
+</html>
